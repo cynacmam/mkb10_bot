@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mkb10"
+version = "0.2.0"
+description = "mkb-bot"
+authors = ["cynacmam"]
+license = "non"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.4"
+aiogram = ">=2.25.1,<2.26.0"
+python-dotenv = ">=1.0.0,<1.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
